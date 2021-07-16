@@ -93,6 +93,12 @@ li a {
         text-align: center;
     }
 
+    /* color block */
+    .row.column.top.middle.bottom{
+        border: 2px solid blue;
+
+    }
+
 /* button */
     button{
         margin-left: 50%;

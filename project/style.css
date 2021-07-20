@@ -178,6 +178,10 @@ h3.art{
     
 
 /* table */
+
+tr.green th{
+    background-color: rgb(67, 193, 63);
+}
 table, th, td {
   
     border: 2px solid rgb(247, 243, 243);

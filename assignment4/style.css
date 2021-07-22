@@ -33,13 +33,13 @@
 
 
 .hand1{
-    /* width: 30%; */
-    bottom: 47%;
-    left:30%;
-    /* top: -42%; */
+    /* width: -30%; */
+    bottom: 20%;
+    left:29%;
+    top: -10%;
     position: absolute;
-    /* animation:move 12s  infinite 4s; */
-    transform: rotate(5deg) infinite;
+    animation:move 14s  infinite 4s;
+    transform: rotate(150deg) infinite;
     
 }
 
@@ -60,10 +60,10 @@
 
 @keyframes move {
     0%{
-    transform: rotate(45deg);
+    transform: rotate(65deg);
     }
     70%{
-        transform: rotate(160deg);
+        transform: rotate(360deg);
     }
 
 }

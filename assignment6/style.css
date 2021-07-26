@@ -13,4 +13,14 @@ p{
    
 }
 
+img.red{
+width:80%;
+height: 90%;
+margin: 4px;
+padding: 12px;
+}
 
+a.nav-item.nav-link:focus{
+    background-color: rgb(217, 255, 0);
+
+}

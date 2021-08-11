@@ -3,9 +3,9 @@ body{
 }
 
 h1, h3{
-    display: flex;
-    color:rgb(97, 62, 27);
-    text-align: center;
+   display: flex;
+   color:rgb(97, 62, 27);
+   text-align: center;
    justify-content: center;
    margin-top: 4%;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,11 +21,11 @@ div form{
 
 /* label */
  label{
-     display: block;
-   position: relative;
-   padding: 5px;
+    display: block;
+    position: relative;
+    padding: 5px;
     outline: none;
-    color:rgb(26, 19, 154);
+    color:rgb(97, 62, 27);
     font-size: 18px;
     margin-bottom: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -67,5 +67,5 @@ button{
     border-radius: 4px;
     color:rgb(97, 90, 201);
     font-weight: 700;
-    box-shadow: rgb(248, 30, 175) 0px 0px 0px 6px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    box-shadow: rgb(248, 30, 175) 0px 0px 0px 6px;
 }

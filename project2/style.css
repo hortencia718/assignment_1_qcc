@@ -269,13 +269,25 @@ hr.new{
 /* modal window */
 
 .modal-window{
-    background-color: white;
+    /* background-color: white;
     height: 500px;
     width: 500px;
     position: absolute;
     left: 30%;
     top: 30%;
+    opacity: 0; */
+    display: flex;
+    flex-direction: column;
+    /* color: rgb(255, 0, 0); */
+    width: 100%;
+    min-height: 400px;
+    /* background-color: rgb(70, 51, 51); */
+    pointer-events: none;
+    position: fixed;
+    top: 0px;
     opacity: 0;
+    padding: 5% 20% 50%;
+
 }
 
 .modal-window > div:nth-child(1){
@@ -284,41 +296,87 @@ hr.new{
 }
 
 
-.modal-window >div > h5{
+/* .modal-window >div > h5{
     border-bottom: 1px solid black;
     width: 80%;
     margin-left: 10%;
-}
+} */
 
-.second-window-dn{
+/* .second-window-dn{
     height: 60%;
-    background-color: orange;
-}
+    background-color: rgb(0, 255, 21);
+} */
 
-.second-window-dn > * {
+/* .second-window-dn > * {
     width: 50%;
     float: left;
-    height: 100%;
-    background-color: yellow;
-}
+    height: 80%;
+    background-color: rgb(240, 185, 220);
+} */
 
-.second-window-dn > * {
-    width: 50%;
-    float: left;
-    height: 100%;
-    /* background-color: yellow; */
-}
 
-.modal-right{
+
+/* .modal-right{
     border: orchid;
-}
+} */
 
 .modal-footer > div{
     width: 80%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-left: 10%;
-}
+ } 
 
 .modal-footer {
     background-color:rgb(163, 163, 155);
+}
+
+
+/* footer */
+.help.center-text > h4,h5,h6,a {
+    color:rgb(228, 215, 248);
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+
+.bottom-box{
+    display: flex;
+    background-color: rgb(12, 12, 14);
+
+}
+
+.social-container{
+  /* display: flex; */
+
+  /* flex-direction: column; */
+  /* align-items: center; */
+  border: 2px solid pink;
+
+}
+
+a.myicon img{
+    width: 50px;
+    height: 50px;
+    border:2px rgb(247, 244, 244);
+   
+}
+
+
+
+.social-container p{
+    font-size: 16px;
+    color:rgb(219, 219, 243);
+}
+
+footer.copy{
+    color:rgb(244, 239, 231);
+    font-size: 20px;
+    margin-left: auto;
 }

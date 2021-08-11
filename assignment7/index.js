@@ -113,7 +113,7 @@
             if( knicksAverage > netsAverage && knicksQual){
                 console.log("knicks win!!")
             }else{
-                console.log("better luck next knicks")
+                console.log("better luck next time knicks")
             };
             if(netsAverage == knicksAverage){
                 console.log('its a draw!')
